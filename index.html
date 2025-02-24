@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Mateusz Zelent - Automatyka przemysłowa - Przemysł 4.0</title>
+        <title>Mateusz Zelent - Python classes </title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
@@ -19,7 +19,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Mateusz Zelent - Automatyka przemysłowa - Przemysł 4.0</span>
+                <span class="d-block d-lg-none">Mateusz Zelent - Python</span>
                 <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -27,8 +27,13 @@
                 <ul class="navbar-nav">
                   <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Strona główna</a></li>
                   <li class="nav-item"><a class="nav-link js-scroll-trigger" style="color:#b9b4e4" href="#konsultacje">Konsultacje</a></li>
-                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://siemens.mzelent.pl/assets/automatyka-przemyslowa-uepp4s-24c-204388-23%201.pdf">Sylabus</a></li>
-                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#presentations">Prezentacje</a></li>
+                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#course-materials">Materiały kursowe</a></li>
+                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#grading">Warunki zaliczenia</a></li>
+                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#syllabus">Sylabusy</a></li>
+                  <li class="nav-item"><a class="nav-link js-scroll-trigger" style="color:#938bdb" href="https://forms.office.com/e/7YpXbwMw9P">Lista obecności</a></li> 
+                  <li class="nav-item"><a class="nav-link js-scroll-trigger" style="color:#8bdb8b" href="https://forms.office.com/e/7YpXbwMw9P">Test poziomujący</a></li>
+                  <li class="nav-item"><a class="nav-link js-scroll-trigger" style="color:#dbc88b" href="https://www.cloudlab.amu.edu.pl">Cloudlab</a></li>
+                  <li class="nav-item"><a class="nav-link js-scroll-trigger"  href="https://github.com/kkingstoun/Kurs-Pythona">Repozytorium Github</a>
                 </ul>
             </div>
             <span class="d-none d-lg-block"><img class="img-fluid mx-auto" style="width:200px;"src="https://siemens.mzelent.pl/images/Siemens_AG_logo.svg" alt="..." /></span>
@@ -40,8 +45,8 @@
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
                     <h1 class="mb-0">
-                        Mateusz Zelent - Automatyka przemysłowa 
-                        <span class="text-primary">Przemysł 4.0</span>
+                        Mateusz Zelent - Podstawowy kurs programowania w języku Python
+                        <span class="text-primary"></span>
                     </h1>
                     <div class="subheading mb-5">
                         Mateusz Zelent
@@ -69,6 +74,68 @@
                 </div>
             </section>
  
+            <!-- Python Course Section -->
+            <section class="resume-section" id="python-course">
+                <div class="resume-section-content">
+                    <h2>Kurs Pythona</h2>
+                    <p>Python to język programowania, który rozwija się nieprzerwanie od ponad 30 lat. W tym czasie powstało wiele jego wersji, a obecnie korzystamy z najnowszej stabilnej wersji – 3.11.5 (stan na październik 2023). Choć dokładna wersja nie zawsze jest kluczowa dla początkujących użytkowników, zalecamy korzystanie z Pythona serii 3.x, ponieważ seria 2.x jest już przestarzała i nie wspierana (ostatnia aktualizacja miała miejsce w 2020 roku). Wersje 3.x wprowadziły znaczące ulepszenia, takie jak lepsze zarządzanie kodowaniem znaków (UTF-8), nowe składnie czy optymalizacje wydajności, które nie są kompatybilne wstecz z serią 2.x. Dlatego upewnij się, że pracujesz na najnowszej wersji serii 3.x, aby uniknąć problemów z kompatybilnością i korzystać z pełni możliwości języka.</p>
+            
+                    <h3>Instalacja Pythona</h3>
+                    <p>Aby ułatwić instalację Pythona i zapewnić spójne środowisko pracy, rekomendujemy użycie pakietu dystrybucyjnego Anaconda. Anaconda to wszechstronna platforma skierowana głównie do programistów, naukowców danych i inżynierów, która oprócz interpretera Pythona zawiera bogaty zestaw preinstalowanych bibliotek (np. NumPy, Pandas, Matplotlib) oraz narzędzia do zarządzania pakietami i środowiskami (conda). Dzięki temu instalacja i konfiguracja są prostsze, a Ty możesz skupić się na nauce zamiast na rozwiązywaniu problemów technicznych.</p>
+                    <p>Jeśli zależy Ci na lżejszej wersji, polecamy Minicondę – minimalistyczną dystrybucję Anacondy, która zawiera tylko podstawowe komponenty i menedżera pakietów conda. Miniconda pozwala na elastyczne dostosowanie środowiska poprzez instalację tylko tych pakietów, których naprawdę potrzebujesz. Pobierz instalator z <a href="https://docs.anaconda.com/free/miniconda/index.html">oficjalnej strony Miniconda</a>.</p>
+
+                    <h3>Konfiguracja środowiska - Visual Studio Code</h3>
+                    <p>Do pisania kodu w Pythonie zalecamy użycie edytora <a href="https://code.visualstudio.com/">Visual Studio Code</a> (VS Code). Jest to lekki, ale potężny edytor, który oferuje wsparcie dla Pythona, w tym podświetlanie składni, debugowanie, automatyczne uzupełnianie kodu i integrację z narzędziami takimi jak Miniconda. Jego popularność wynika z łatwości konfiguracji i bogatej kolekcji rozszerzeń, które dostosują środowisko do Twoich potrzeb.</p>
+            
+                    <h4>Instalacja Visual Studio Code</h4>
+                    <ol>
+                        <li>Wejdź na oficjalną stronę <a href="https://code.visualstudio.com/">Visual Studio Code</a> i pobierz instalator odpowiedni dla Twojego systemu operacyjnego (Windows, macOS lub Linux).</li>
+                        <li>Po pobraniu uruchom instalator i postępuj zgodnie z instrukcjami na ekranie. Podczas instalacji, w oknie opcji, upewnij się, że zaznaczasz pole <strong>"Add to Context Menu"</strong> – dzięki temu będziesz mógł szybko otwierać VS Code z menu kontekstowego (np. klikając prawym przyciskiem myszy na folderze). Zalecamy również pozostawienie zaznaczonej opcji <strong>"Add to PATH"</strong>, co umożliwi uruchamianie edytora z wiersza poleceń.</li>
+                        <li>Po zakończeniu instalacji uruchom VS Code. Przy pierwszym uruchomieniu możesz zostać poproszony o wybór języka interfejsu – wybierz preferowany (np. polski lub angielski).</li>
+                        <li>Zainstaluj rozszerzenie do Pythona: 
+                            <ul>
+                                <li>W VS Code kliknij ikonę "Extensions" (rozszerzenia) na lewym pasku bocznym (lub użyj skrótu Ctrl+Shift+X).</li>
+                                <li>W polu wyszukiwania wpisz "Python" i wybierz rozszerzenie "Python" od Microsoftu.</li>
+                                <li>Kliknij "Install" (zainstaluj), a po instalacji upewnij się, że VS Code wykrył Twój interpreter Pythona z Minicondy (możesz to sprawdzić w lewym dolnym rogu edytora – wybierz interpreter, jeśli nie jest ustawiony automatycznie).</li>
+                            </ul>
+                        </li>
+                        <li>Gotowe! Możesz teraz tworzyć pliki z rozszerzeniem .py i zaczynać pisać kod w Pythonie.</li>
+                    </ol>
+                    <p>Pamiętaj, aby w trakcie instalacji VS Code zaznaczyć opcję "Add to Context Menu" – to drobiazg, ale znacznie ułatwi Ci pracę na co dzień. Regularnie aktualizuj zarówno Minicondę, jak i VS Code, aby korzystać z najnowszych funkcji i poprawek bezpieczeństwa. W razie problemów z konfiguracją, napisz do nas – chętnie pomożemy!</p>
+                </div>
+            </section>
+
+            <hr class="m-0" />
+
+            <!-- Grading Section -->
+            <section class="resume-section" id="grading">
+                <div class="resume-section-content">
+                    <h2>Warunki zaliczenia</h2>
+                    <p>Aby zaliczyć kurs, należy uzyskać co najmniej 50% punktów na kolokwium.</p>
+                    <h3>Kryteria oceny:</h3>
+                    <ul>
+                        <li><strong>5.0 (bdb):</strong> 90-100% punktów</li>
+                        <li><strong>4.5 (+db):</strong> 80-89% punktów</li>
+                        <li><strong>4.0 (db):</strong> 70-79% punktów</li>
+                        <li><strong>3.5 (+dst):</strong> 60-69% punktów</li>
+                        <li><strong>3.0 (dst):</strong> 50-59% punktów</li>
+                        <li><strong>2.0 (ndst):</strong> poniżej 50%</li>
+                    </ul>
+                </div>
+            </section>
+
+            <hr class="m-0" />
+
+            <!-- Syllabus Section -->
+            <section class="resume-section" id="syllabus">
+                <div class="resume-section-content">
+                    <h2>Sylabusy</h2>
+                    <ul>
+                        <li><a href="https://sylabus.amu.edu.pl/pl/document/9185f372-7b5e-4b0a-a05f-1cd3ef5b33f1.pdf">Akustyka</a></li>
+                        <li><a href="https://sylabus.amu.edu.pl/pl/document/22bf1bb8-caa0-4e16-9cfd-8d8ac64cc2f0.pdf">Fizyka Medyczna / Biofizyka</a></li>
+                    </ul>
+                </div>
+            </section>
 
             <hr class="m-0" />
             <section class="resume-section" id="konsultacje">
@@ -85,29 +152,6 @@
                   <!-- <a href="https://forms.office.com/e/beyEdWYvzz" class="btn btn-primary mt-2">Link do testu</a> -->
                 </div>
               </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Presentations -->
-            <section class="resume-section" id="presentations">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Prezentacje</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Labolatorium 1</h3>
-                            <div class="subheading mb-3"><a href="assets/lab1.html">Prezentacja Lab1</a></div>
-                            <div>Wstęp i konfiguracja sterownika</div>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">10-17.10.2024</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Labolatorium 5</h3>
-                            <div class="subheading mb-3"><a href="assets/lab5.html">Prezentacja Lab5 - web interface</a></div>
-                            <div>Wstęp i konfiguracja sterownika</div>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">28.11.2024</span></div>
-                    </div>
-                </div>
             </section>
             <hr class="m-0" />
         </div>
